@@ -1,0 +1,6 @@
+<h2>Add Student</h2>
+<label for="name">Name</label>
+<input type="text" #name><br>
+<label for="event">Event</label>
+<input type="text"#event><br>
+<button (click)="addStudent(name.value,event.value)">Add</button>

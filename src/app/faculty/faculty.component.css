@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f4a261;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li:hover {
+    background-color: #e76f51;
+  }
+  
